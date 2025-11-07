@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BookBazaar | Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <h2><a href="index.html">BookBazaar</a></h2>
+    <nav>
+      <a href="books.php">Books</a>
+      <a href="cart.php">Cart</a>
+      <a href="wishlist.php">Wishlist</a>
+      <a href="login.php">Login</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to BookBazaar</h1>
+      <p>Discover, Read, and Own your favorite books in just a click.</p>
+      <div class="hero-buttons">
+        <a href="books.php" class="btn">Browse Books</a>
+        <a href="signup.php" class="btn ghost">Join Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED BOOKS -->
+  <section class="featured">
+    <h2>Featured Books</h2>
+    <div id="featured-books" class="book-grid"></div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about">
+    <h2>About BookBazaar</h2>
+    <p>
+      BookBazaar is your one-stop online bookstore where you can explore, review, and purchase books across all genres.
+      Whether you're a reader or an author, we make managing your journey seamless.
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 BookBazaar | Made with ❤️ </p>
+  </footer>
+
+  <script>
+    // Dynamically load 3 featured books from JSON
+    fetch("data/books.json")
+      .then(response => response.json())
+      .then(books => {
+        const container = document.getElementById("featured-books");
+        books.slice(0, 3).forEach(book => {
+          container.innerHTML += `
+            <div class="card">
+              <img src="assets/images/${book.image}" alt="${book.title}">
+              <h3>${book.title}</h3>
+              <p>${book.author}</p>
+              <p class="price">₹${book.price}</p>
+              <a href="book.php?id=${book.id}" class="btn">View Details</a>
+            </div>
+          `;
+        });
+      });
+  </script>
+
+</body>
+</html>

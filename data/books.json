@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "genre": "Fiction",
+        "price": 399,
+        "image": "alchemist.jpg",
+        "description": "A journey of self-discovery and destiny."
+    },
+    {
+        "id": 2,
+        "title": "Wings of Fire",
+        "author": "A.P.J. Abdul Kalam",
+        "genre": "Autobiography",
+        "price": 499,
+        "image": "wings_of_fire.jpg",
+        "description": "An inspiring autobiography of India's Missile Man."
+    },
+    {
+        "id": 3,
+        "title": "Normal People",
+        "author": "Sally Rooney",
+        "genre": "Fiction",
+        "price": 350,
+        "image": "normal_people.jpeg",
+        "description": "A tender story of love, friendship, and growing up."
+    },
+    {
+        "id": 4,
+        "title": "Sunrise on the Reaping",
+        "author": "Suzanne Collins",
+        "genre": "Fiction",
+        "price": 550,
+        "image": "sunrise_on_the_reaping.jpeg",
+        "description": "The fifth book in the Hunger Games series."
+    },
+    {
+        "id": 5,
+        "title": "Great Big Beautiful Life",
+        "author": "Emily Henry",
+        "genre": "Romance \/ Drama",
+        "price": 420,
+        "image": "great_big_beautiful_life.jpeg",
+        "description": "A story of love, loss, and second chances."
+    },
+    {
+        "id": 6,
+        "title": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "genre": "Psychological",
+        "price": 480,
+        "image": "silent_patient.jpeg",
+        "description": "A psychological thriller with shocking twists."
+    },
+    {
+        "id": 7,
+        "title": "Red Rising",
+        "author": "Pierce Brown",
+        "genre": "Science Fiction",
+        "price": 470,
+        "image": "red_rising.jpeg",
+        "description": "A gripping dystopian saga of rebellion and survival."
+    },
+    {
+        "id": 8,
+        "title": "The Art Thief",
+        "author": "Christie Thomas",
+        "genre": "True Crime",
+        "price": 400,
+        "image": "art_theif.jpeg",
+        "description": "A true story of love, crime, and obsession."
+    },
+    {
+        "id": 9,
+        "title": "Piranesi",
+        "author": "Susanna Clarke",
+        "genre": "Fantasy",
+        "price": 390,
+        "image": "piranesi.jpeg",
+        "description": "A haunting fantasy set in a mysterious house."
+    },
+    {
+        "id": 10,
+        "title": "The Metamorphosis",
+        "author": "Franz Kafka",
+        "genre": "Fiction",
+        "price": 299,
+        "image": "metamorphosis.jpeg",
+        "description": "A haunting tale of transformation and alienation, exploring the absurdity of human existence through the story of Gregor Samsa, who wakes up one morning to find himself turned into a gigantic insect."
+    }
+]

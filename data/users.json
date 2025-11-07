@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Admin",
+        "email": "admin@bb.com",
+        "password": "$2y$10$TexwwioKeIN3lRAR2tABeeydR5nYSOTJzdvlQn1TFhiiBSZwYlB42",
+        "role": "admin"
+    },
+    {
+        "id": 2,
+        "name": "Gayatri",
+        "email": "user@bb.com",
+        "password": "$2y$10$TexwwioKeIN3lRAR2tABeeydR5nYSOTJzdvlQn1TFhiiBSZwYlB42",
+        "role": "user"
+    },
+    {
+        "id": 3,
+        "name": "Rider",
+        "email": "delivery@bb.com",
+        "password": "$2y$10$TexwwioKeIN3lRAR2tABeeydR5nYSOTJzdvlQn1TFhiiBSZwYlB42",
+        "role": "delivery"
+    },
+    {
+        "id": 4,
+        "name": "Ashok",
+        "email": "ash23@gmail.com",
+        "password": "$2y$10$WtodgNIkUAtV3fkY.uA1T.GlCzMzktDom8NFJDC22OrJf7RTH0WOC",
+        "role": "user"
+    },
+    {
+        "id": 5,
+        "name": "Riya",
+        "email": "riya23@gmail.com",
+        "password": "$2y$10$HlH8gjVAhc4CYUXjPKerOuz7DJ0zy7uUHLP8kuPT5a8l2m9KwRl4y",
+        "role": "user"
+    }
+]

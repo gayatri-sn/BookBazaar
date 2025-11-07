@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "user_id": 4,
+        "items": [
+            {
+                "id": 10,
+                "qty": 1,
+                "price": 390
+            }
+        ],
+        "total": 390,
+        "address": "MIT Manipal",
+        "status": "Delivered",
+        "created_at": "2025-11-07T11:24:17+01:00"
+    },
+    {
+        "id": 2,
+        "user_id": 2,
+        "items": [
+            {
+                "id": 5,
+                "qty": 1,
+                "price": 420
+            }
+        ],
+        "total": 420,
+        "address": "MIT Manipal",
+        "status": "Out for Delivery",
+        "created_at": "2025-11-07T23:07:49+01:00"
+    },
+    {
+        "id": 3,
+        "user_id": 2,
+        "items": [
+            {
+                "id": 5,
+                "qty": 1,
+                "price": 420
+            }
+        ],
+        "total": 420,
+        "address": "Bangalore",
+        "status": "Pending",
+        "created_at": "2025-11-07T23:46:35+01:00"
+    }
+]

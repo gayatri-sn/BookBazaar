@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "book_id": 4,
+        "user_id": 2,
+        "user_name": "Gayatri",
+        "rating": 5,
+        "comment": "good book",
+        "created_at": "2025-11-07T23:06:14+01:00"
+    },
+    {
+        "id": 2,
+        "book_id": 4,
+        "user_id": 5,
+        "user_name": "Riya",
+        "rating": 4,
+        "comment": "liked the book",
+        "created_at": "2025-11-08 00:05:21"
+    }
+]

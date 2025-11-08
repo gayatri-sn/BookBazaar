@@ -29,7 +29,7 @@ It includes **customer, admin, and delivery roles**, a lightweight **JSON-based 
 
 | Layer | Technology |
 |--------|-------------|
-| **Frontend** | HTML5, CSS3 (custom responsive + pastel theme), JavaScript |
+| **Frontend** | HTML5, CSS3, JavaScript |
 | **Backend** | PHP 8 |
 | **Data Storage** | JSON files (`books.json`, `users.json`, `reviews.json`, `orders.json`) |
 | **Server** | Apache (XAMPP) |

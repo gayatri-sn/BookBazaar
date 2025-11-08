@@ -222,6 +222,57 @@ footer {
   .book-grid { padding: 20px; }
 }
 
+.detail {
+  display: grid;
+  grid-template-columns: 300px 1fr; /* image + details */
+  gap: 40px;
+  align-items: start;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fffaf4;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.detail img {
+  width: 100%;
+  max-width: 280px;
+  height: 420px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  object-fit: cover;
+}
+
+.detail h1 {
+  margin-bottom: 10px;
+  color: #2e1e15;
+}
+
+.detail p {
+  color: #6a564e;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.detail h2 {
+  color: #e77d63;
+  margin: 15px 0;
+}
+
+@media (max-width: 720px) {
+  .detail {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .detail img {
+    max-width: 220px;
+    margin: 0 auto 20px;
+  }
+}
+
+
 /* ===== SEARCH & FILTER PANEL ===== */
 .search-panel {
   display: flex;

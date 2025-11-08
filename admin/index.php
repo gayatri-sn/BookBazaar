@@ -16,7 +16,7 @@ $user = current_user();
 
 <section class="admin-dashboard">
   <div class="welcome-card">
-    <h1>👋 Welcome, <?= htmlspecialchars($user['name'] ?? 'Admin') ?>!</h1>
+    <h1>Welcome, <?= htmlspecialchars($user['name'] ?? 'Admin') ?>!</h1>
     <p>Here’s what you can manage today.</p>
   </div>
 
